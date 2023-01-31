@@ -1,8 +1,12 @@
 extends Node # instancia a classe Node2D
 
+# a variavel status é responsável por manter registro do estado de jogo e fazer seu controle, quando assume valor 1 a partida está ocorrenco, quando assume valor 0 o jogador é levado para o menu
 var status = 1
+# a variavel vscore é responsável por manter registro da pontuação do player durante a partida
 var vscore = 0
-var x = 1.5 
+# a variavel x é utilizada para determinar a velocidade com que o background e os pilares se movimentão, ou seja, determina a velocidade do player
+var x = 3
+# a variavel y é utilizada para determinar a velocidade com que o player é puxado para baixo, atuando como a gravidade do jogo
 var y = 1.5 
 
 # executa essa função ao carregar o jogo
@@ -41,11 +45,11 @@ func _process(delta):
 			
 		# se apertou seta para baixo, aumenta o valor de y (posição vertical) do dragão
 		if Input.is_action_pressed("ui_down"):
-			$dragon.position.y += 2
+			$dragon.position.y += 5 
 
 		# se apertou seta para cima, diminui o valor de y (posição vertical) do dragão
 		if Input.is_action_pressed("ui_up"):
-			$dragon.position.y -= 4
+			$dragon.position.y -= 7 
 			
 	elif status == 0: # parado
 		
