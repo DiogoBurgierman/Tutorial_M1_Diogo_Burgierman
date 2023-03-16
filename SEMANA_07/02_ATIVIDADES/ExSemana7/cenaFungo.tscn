@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://imagens/DALL·E 2023-03-15 09.27.59 - petri dishe with white and brown fungus Penicillin-Streptomycin in it pixelart.png" type="Texture" id=1]
+[ext_resource path="res://imagens/fungus.png" type="Texture" id=1]
 [ext_resource path="res://imagens/Branco.png" type="Texture" id=2]
 
 [node name="cenaFungo" type="Node2D"]

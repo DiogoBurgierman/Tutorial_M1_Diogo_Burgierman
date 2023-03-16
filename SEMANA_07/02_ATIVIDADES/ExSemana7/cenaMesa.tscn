@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://imagens/DALL·E 2023-03-15 09.27.51 - cientist table with two petri dishes pixelart.png" type="Texture" id=1]
+[ext_resource path="res://imagens/table.png" type="Texture" id=1]
 [ext_resource path="res://imagens/Preto.png" type="Texture" id=2]
 [ext_resource path="res://cenaMesa.gd" type="Script" id=3]
 [ext_resource path="res://cenaBacteria.tscn" type="PackedScene" id=4]
