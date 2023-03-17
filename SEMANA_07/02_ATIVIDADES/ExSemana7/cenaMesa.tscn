@@ -21,6 +21,7 @@ margin_right = 732.0
 margin_bottom = 422.0
 
 [node name="Bacteria" type="Button" parent="."]
+visible = false
 margin_left = 315.0
 margin_top = 308.0
 margin_right = 501.0
@@ -36,6 +37,8 @@ visible = false
 
 [node name="cenaBacteria" parent="." instance=ExtResource( 4 )]
 visible = false
+
+[node name="mouse" type="Sprite" parent="."]
 
 [connection signal="pressed" from="Penicillium" to="." method="_on_Penicillium_pressed"]
 [connection signal="pressed" from="Bacteria" to="." method="_on_Bacteria_pressed"]
