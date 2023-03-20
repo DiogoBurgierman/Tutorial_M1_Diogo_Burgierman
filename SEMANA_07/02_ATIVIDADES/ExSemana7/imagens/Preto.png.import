@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Preto.png-dedb5f7c7ca6c575a12df6d157f80a43.stex"
+path="res://.import/Preto.png-cbcec11f70e0ce039e629209a7df1ccc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://imagens/Preto.png"
-dest_files=[ "res://.import/Preto.png-dedb5f7c7ca6c575a12df6d157f80a43.stex" ]
+source_file="res://Preto.png"
+dest_files=[ "res://.import/Preto.png-cbcec11f70e0ce039e629209a7df1ccc.stex" ]
 
 [params]
 

@@ -23,6 +23,7 @@ scale = Vector2( 0.6, 0.6 )
 texture = ExtResource( 1 )
 
 [node name="voltar" type="Button" parent="."]
+visible = false
 margin_right = 253.0
 margin_bottom = 81.0
 text = "VOLTAR PARA A MESA"
@@ -34,7 +35,7 @@ margin_right = 168.0
 margin_bottom = 307.0
 rect_scale = Vector2( 2, 2 )
 bbcode_enabled = true
-bbcode_text = "[center][color=black]pegue a penicilina produzida pelo fungo com o conta gotas e retorne à mesa[/color]"
+bbcode_text = "[color=black][center]pegue a penicilina produzida pelo fungo com o conta gotas e retorne à mesa"
 text = "pegue a penicilina produzida pelo fungo com o conta gotas e retorne à mesa"
 
 [connection signal="pressed" from="pegarP" to="." method="_on_pegarP_pressed"]

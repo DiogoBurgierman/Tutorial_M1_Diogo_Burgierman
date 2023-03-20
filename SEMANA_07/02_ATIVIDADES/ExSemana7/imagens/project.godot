@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="ExSemana7"
-run/main_scene="res://menuInicial.tscn"
+run/main_scene="res://cenaMesa.tscn"
 config/icon="res://icon.png"
 
 [autoload]
