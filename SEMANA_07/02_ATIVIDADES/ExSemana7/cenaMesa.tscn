@@ -43,12 +43,17 @@ visible = false
 [node name="mouse" type="Sprite" parent="."]
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_right = 1025.0
-margin_bottom = 238.0
+margin_left = 9.0
+margin_top = 2.0
+margin_right = 509.0
+margin_bottom = 102.0
+rect_scale = Vector2( 2, 2 )
 custom_fonts/mono_font = SubResource( 1 )
 bbcode_enabled = true
-bbcode_text = "[font=<40>][center][color=<#FFFFFF>]Oi[/color][/font]"
-text = "Oi[/font]"
+bbcode_text = "[center] Na sua frente estão duas placas de petri. A da direita contém o fungo \"Penicillium notatum\" que é conhecido por produzir penicilina, um anibiótico capaz de matar muitas espécies de bactérias. A da esquerda, por sua vez, contém uma cultura de bactérias na qual você vai executar testes para checar se ela é ou não afetada pelo antibiótico.
+Olhe a placa com o fungo primeiro"
+text = " Na sua frente estão duas placas de petri. A da direita contém o fungo \"Penicillium notatum\" que é conhecido por produzir penicilina, um anibiótico capaz de matar muitas espécies de bactérias. A da esquerda, por sua vez, contém uma cultura de bactérias na qual você vai executar testes para checar se ela é ou não afetada pelo antibiótico.
+Olhe a placa com o fungo primeiro"
 __meta__ = {
 "_editor_description_": "
 "

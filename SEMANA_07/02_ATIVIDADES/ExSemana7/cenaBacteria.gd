@@ -20,6 +20,12 @@ func _on_aplicarP_pressed():
 
 func _on_finalizarExperimento_pressed():
 	if cont == 6:
-		print("chega de bac")
+		$finalMorteBacterias.visible = true
 	else:
-		print("morreu geral")
+		$finalMorteHumanos.visible = true
+		
+func recomecar():
+	pass
+
+func _on_Button2_pressed():
+	get_tree().quit()

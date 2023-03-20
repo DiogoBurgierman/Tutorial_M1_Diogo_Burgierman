@@ -8,9 +8,9 @@
 script = ExtResource( 3 )
 
 [node name="pegarP" type="Button" parent="."]
-margin_left = 235.0
-margin_top = 19.0
-margin_right = 831.0
+margin_left = 454.0
+margin_top = 57.0
+margin_right = 969.0
 margin_bottom = 588.0
 
 [node name="fundo" type="Sprite" parent="."]
@@ -18,7 +18,7 @@ position = Vector2( 454, 296 )
 texture = ExtResource( 2 )
 
 [node name="fungo" type="Sprite" parent="."]
-position = Vector2( 525, 305 )
+position = Vector2( 696, 305 )
 scale = Vector2( 0.6, 0.6 )
 texture = ExtResource( 1 )
 
@@ -26,6 +26,16 @@ texture = ExtResource( 1 )
 margin_right = 253.0
 margin_bottom = 81.0
 text = "VOLTAR PARA A MESA"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 17.0
+margin_top = 207.0
+margin_right = 168.0
+margin_bottom = 307.0
+rect_scale = Vector2( 2, 2 )
+bbcode_enabled = true
+bbcode_text = "[center][color=black]pegue a penicilina produzida pelo fungo com o conta gotas e retorne à mesa[/color]"
+text = "pegue a penicilina produzida pelo fungo com o conta gotas e retorne à mesa"
 
 [connection signal="pressed" from="pegarP" to="." method="_on_pegarP_pressed"]
 [connection signal="pressed" from="voltar" to="." method="_on_voltar_pressed"]
